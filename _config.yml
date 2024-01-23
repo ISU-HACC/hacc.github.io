@@ -1,30 +1,32 @@
-# Site settings
-title: Information Assurance Student Group  
-email: iasg-cabinet@iastate.edu
+# Site settings/variables
+title: Hacking and Cyber Security Club
+email: hacc-cabinet@iastate.edu
 
-description: > # this means to ignore newlines until "baseurl:" TODO: update the span to hold meeting information once school starts again
-    The Information Assurance Student Group (IASG) at Iowa State University is dedicated to
-    cyber security and holds weekly meetings for students interested in the
-    Cyber Security field. <span style="color:#b5e853"> </span> <a href="https://discord.gg/3xxec7V5zN">Join our discord!</a>
+url: "https://hacc.github.io" # the base hostname & protocol for your site
+baseurl: "" # the subpath of your site, e.g. /blog/
+twitter_username: 
+github_username: ISU-HACC
+facebook_page: infasgroup
+youtube_channel: UC-rLOtGfHGx9N1mlNNEwJNQ
+# NOTE: This needs to also be changed in the description below too for the header to be updated
+discord: https://discord.gg/3xxec7V5zN
 
 semester: "Spring 2024"
 meeting_time: "Thursday from 6:00PM to 7:00PM"
 meeting_location: "Coover 1011"
 
-baseurl: "" # the subpath of your site, e.g. /blog/
-
-url: "https://iasg.github.io" # the base hostname & protocol for your site
-twitter_username: 
-github_username: IASG
-facebook_page: infasgroup
-youtube_channel: UC-rLOtGfHGx9N1mlNNEwJNQ
-discord: https://discord.gg/3xxec7V5zN
-remote_theme: pages-themes/hacker@v0.2.0
+description: > # this means to ignore newlines until "baseurl:" TODO: update the span to hold meeting information once school starts again
+    The Hacking and Cyber Security Club (HACC) at Iowa State University is dedicated to
+    cyber security and holds weekly meetings for students interested in the
+    Cyber Security field. <span style="color:#b5e853"><a href="https://discord.gg/3xxec7V5zN">Join our discord!</a></span>
 
 sponsors:
     - name: "Collins Aerospace"
       url: "https://www.collinsaerospace.com/"
       image: "/assets/sponsors/collins-aerospace/logos/logo-white-transparent.png"
+
+# The theme that is being used for the site
+remote_theme: pages-themes/hacker@v0.2.0
 
 #Plugin that allows for automatic redirecting
 plugins:
